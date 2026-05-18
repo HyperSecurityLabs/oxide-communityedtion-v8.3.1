@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d79921"/>
+      <stop offset="50%" stop-color="#b8bb26"/>
+      <stop offset="100%" stop-color="#689d6a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="512" height="512" rx="120" fill="#1d2021"/>
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="#282828" stroke="#3c3836" stroke-width="2"/>
+
+  <g transform="translate(256,240)">
+
+    <!-- Outer ring -->
+    <circle cx="0" cy="0" r="150" fill="none" stroke="url(#ringGrad)" stroke-width="10" opacity="0.8"/>
+
+    <!-- Inner ring -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#98971a" stroke-width="5" opacity="0.5"/>
+
+    <!-- Electron orbits -->
+    <ellipse cx="0" cy="0" rx="150" ry="75" fill="none" stroke="#ebdbb2" stroke-width="2" opacity="0.25" transform="rotate(30)"/>
+    <ellipse cx="0" cy="0" rx="150" ry="75" fill="none" stroke="#ebdbb2" stroke-width="2" opacity="0.25" transform="rotate(-30)"/>
+    <ellipse cx="0" cy="0" rx="150" ry="75" fill="none" stroke="#ebdbb2" stroke-width="2" opacity="0.25" transform="rotate(90)"/>
+
+    <!-- Bonding arms -->
+    <!-- Top -->
+    <line x1="0" y1="-150" x2="0" y2="-195" stroke="#d79921" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="-195" r="18" fill="#d65d0e" filter="url(#softGlow)"/>
+
+    <!-- Top-right -->
+    <line x1="130" y1="-75" x2="168.8" y2="-97.4" stroke="#b8bb26" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="168.8" cy="-97.4" r="18" fill="#b8bb26" filter="url(#softGlow)"/>
+
+    <!-- Bottom-right -->
+    <line x1="130" y1="75" x2="168.8" y2="97.4" stroke="#689d6a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="168.8" cy="97.4" r="18" fill="#689d6a" filter="url(#softGlow)"/>
+
+    <!-- Bottom -->
+    <line x1="0" y1="150" x2="0" y2="195" stroke="#458588" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="195" r="18" fill="#458588" filter="url(#softGlow)"/>
+
+    <!-- Bottom-left -->
+    <line x1="-130" y1="75" x2="-168.8" y2="97.4" stroke="#83a598" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-168.8" cy="97.4" r="18" fill="#83a598" filter="url(#softGlow)"/>
+
+    <!-- Top-left -->
+    <line x1="-130" y1="-75" x2="-168.8" y2="-97.4" stroke="#b16286" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-168.8" cy="-97.4" r="18" fill="#b16286" filter="url(#softGlow)"/>
+
+    <!-- Accent nodes on outer ring -->
+    <circle cx="0" cy="-150" r="6" fill="#fbf1c7"/>
+    <circle cx="130" cy="-75" r="6" fill="#fbf1c7"/>
+    <circle cx="130" cy="75" r="6" fill="#fbf1c7"/>
+    <circle cx="0" cy="150" r="6" fill="#fbf1c7"/>
+    <circle cx="-130" cy="75" r="6" fill="#fbf1c7"/>
+    <circle cx="-130" cy="-75" r="6" fill="#fbf1c7"/>
+
+    <!-- Central nucleus -->
+    <circle cx="0" cy="0" r="32" fill="#d79921" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="24" fill="#ebdbb2"/>
+    <circle cx="0" cy="0" r="12" fill="#1d2021"/>
+
+  </g>
+
+  <!-- OXIDE text -->
+  <text x="256" y="476" text-anchor="middle"
+        font-family="monospace, 'Fira Code', 'JetBrains Mono', Consolas"
+        font-size="28" fill="#ebdbb2" letter-spacing="10" font-weight="bold">OXIDE</text>
+</svg>
