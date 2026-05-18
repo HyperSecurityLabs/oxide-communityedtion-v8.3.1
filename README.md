@@ -4,8 +4,8 @@ Open eXtensible Intelligence &amp; Detection Engine — AI-augmented web vulnera
 <div align="center">
 
 ```
-   ____ _  __ ________  ______
-  / __ \ |/ //  _/ __ \/ ____/
+    ____ _  __ ________  ______
+   / __ \ |/ //  _/ __ \/ ____/
  / / / /   / / // / / / __/
 / /_/ /   |_/ // /_/ / /___
 \____/_/|_/___/_____/_____/
