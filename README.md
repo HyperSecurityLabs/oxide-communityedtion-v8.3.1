@@ -44,7 +44,7 @@ Open eXtensible Intelligence &amp; Detection Engine — AI-augmented web vulnera
 **OXIDE** (Open eXtensible Intelligence & Detection Engine) is a next-generation, AI-augmented web vulnerability scanner written entirely in **Rust**. It combines the raw performance of systems-level programming with machine learning-driven detection to find what traditional scanners miss.
 
 From classic SQLi and XSS to zero-day anomaly detection using real ML models — OXIDE is built for the modern offensive security professional.
-<img width="1440" height="900" alt="Screenshot_2026-05-18_12_04_32" src="https://github.com/user-attachments/assets/320e5f26-4646-46d3-b06a-0565ccf22518" />
+
 <img width="1440" height="900" alt="Screenshot_2026-05-18_12_04_21" src="https://github.com/user-attachments/assets/0e5233ac-3e51-4482-9b0a-7dd8da7b4fa1" />
 
 ---
