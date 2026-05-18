@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" rx="36" ry="36" fill="#282828"/>
+  
+  <!-- Outer O ring -->
+  <circle cx="100" cy="100" r="60" fill="none" stroke="#d79921" stroke-width="8"/>
+  
+  <!-- Inner O ring -->
+  <circle cx="100" cy="100" r="38" fill="none" stroke="#98971a" stroke-width="4"/>
+  
+  <!-- Molecular bonds (oxide theme) -->
+  <!-- Bond 1 - top right -->
+  <line x1="100" y1="40" x2="148" y2="68" stroke="#ebdbb2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="148" cy="68" r="6" fill="#d79921"/>
+  
+  <!-- Bond 2 - bottom right -->
+  <line x1="100" y1="160" x2="148" y2="132" stroke="#ebdbb2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="148" cy="132" r="6" fill="#98971a"/>
+  
+  <!-- Bond 3 - bottom left -->
+  <line x1="100" y1="160" x2="52" y2="132" stroke="#ebdbb2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="52" cy="132" r="6" fill="#689d6a"/>
+  
+  <!-- Bond 4 - top left -->
+  <line x1="100" y1="40" x2="52" y2="68" stroke="#ebdbb2" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="52" cy="68" r="6" fill="#458588"/>
+  
+  <!-- Center node -->
+  <circle cx="100" cy="100" r="10" fill="#ebdbb2"/>
+  <circle cx="100" cy="100" r="4" fill="#1d2021"/>
+  
+  <!-- Accent dots on ring -->
+  <circle cx="100" cy="40" r="3" fill="#d65d0e"/>
+  <circle cx="160" cy="100" r="3" fill="#b16286"/>
+  <circle cx="100" cy="160" r="3" fill="#cc241d"/>
+  <circle cx="40" cy="100" r="3" fill="#928374"/>
+  
+  <!-- Subtle glow -->
+  <circle cx="100" cy="100" r="10" fill="none" stroke="#d79921" stroke-width="1" opacity="0.5"/>
+</svg>
