@@ -1,0 +1,151 @@
+OXIDE FRAMEWORK — PROPRIETARY SOFTWARE LICENSE
+Copyright (c) 2024 khaninkali · HyperSecurityLabs
+All Rights Reserved.
+
+===============================================================================
+TERMS AND CONDITIONS
+===============================================================================
+
+1. DEFINITIONS
+
+   "Software" refers to the complete OXIDE Framework codebase, including all
+   source code, binary artifacts, documentation, test data, build scripts,
+   configuration files, and associated materials within this repository.
+
+   "Author" refers to khaninkali, the original creator and sole copyright
+   holder of the Software.
+
+   "HyperSecurityLabs" refers to the organization/brand associated with the
+   Author and the Software.
+
+   "HyperSecurity Members" refers to individuals explicitly authorized by the
+   Author as part of the HyperSecurityLabs team.
+
+2. GRANT OF LICENSE
+
+   This repository is made PUBLIC for viewing, learning, and reference
+   purposes only. The following permissions are granted to the general public:
+
+   (a) VIEWING — You may view, read, and study the source code in this
+       public repository.
+   (b) FORKING — You may fork this repository on GitHub for personal
+       reference and educational purposes only.
+   (c) PERSONAL USE — You may compile and use the Software for personal,
+       educational, or authorized security research purposes.
+
+   The following permissions are EXCLUSIVE to HyperSecurity Members:
+
+   (a) MODIFICATION — Only HyperSecurity Members may modify, alter, or
+       create derivative works of the Software.
+   (b) MERGING — Only HyperSecurity Members may submit changes to the
+       official upstream repository via pull requests.
+   (c) REDISTRIBUTION — Only HyperSecurity Members may redistribute,
+       rehost, or publish modified versions of the Software.
+
+3. RESTRICTIONS
+
+   The following actions are STRICTLY PROHIBITED for anyone who is NOT a
+   HyperSecurity Member:
+
+   (a) MODIFICATION — You may NOT modify, alter, or create derivative
+       works of the Software in any way that you distribute or share.
+       Personal modifications for local use only (not shared) are permitted
+       but must retain all original attribution.
+
+   (b) REMOVAL OF ATTRIBUTION — You may NEVER remove, alter, obscure, or
+       replace the Author's name ("khaninkali"), the HyperSecurityLabs brand,
+       copyright notices, license text, version tags, or any attribution
+       present in the source code, binary outputs, documentation, or any
+       other part of the Software. This includes but is not limited to:
+
+       - Source file headers and comments
+       - Binary strings and embedded metadata
+       - CLI output, banners, and version strings
+       - README, documentation, and project metadata
+       - Git commit history and author information
+       - Package manifests (Cargo.toml, etc.)
+       - Git tags and release labels
+
+   (c) REBRANDING — You may NEVER rename, rebrand, or present the Software
+       (or any portion thereof) as your own original creation, under any
+       name other than "OXIDE" with proper attribution to HyperSecurityLabs.
+
+   (d) CLAIMING OWNERSHIP — You may NEVER claim authorship, copyright, or
+       ownership of the Software or any portion thereof.
+
+   (e) COMMERCIAL USE — You may NEVER sell, license, sublicense, monetize,
+       or commercially exploit the Software or any derivative work without
+       explicit written permission from the Author.
+
+   (f) SPLITTING — You may NEVER extract, isolate, or repurpose any portion
+       of the Software (modules, algorithms, test data, configuration) as
+       a standalone product or component without written permission.
+
+4. PULL REQUESTS & CONTRIBUTIONS
+
+   External users may submit pull requests to this repository. By submitting
+   a pull request, the contributor agrees that:
+
+   (a) All contributed code becomes the property of the Author and
+       HyperSecurityLabs.
+   (b) The contributor retains no ownership or copyright over contributed
+       code.
+   (c) The Author reserves the right to accept, reject, or modify any
+       contribution at their sole discretion.
+   (d) Merged contributions will be attributed at the Author's discretion.
+
+5. SOURCE CODE PROTECTION
+
+   The source code of this Software is the exclusive intellectual property
+   of the Author. Any attempt to:
+
+   (a) Circumvent licensing restrictions
+   (b) Strip attribution, name tags, or copyright notices
+   (c) Re-release under a different license, name, or version tag
+   (d) Claim original authorship or ownership
+   (e) Sell or monetize the Software
+
+   constitutes a material breach of this license and will result in legal
+   action under applicable copyright and intellectual property laws.
+
+6. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+   IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+   CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+   TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+   SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. TERMINATION
+
+   This license is automatically terminated if you breach any of its terms.
+   Upon termination, you must immediately destroy all copies of the
+   Software in your possession or control.
+
+8. GOVERNING LAW
+
+   This license shall be governed by and construed in accordance with
+   applicable international copyright law and intellectual property
+   treaties.
+
+===============================================================================
+
+BY CLONING, FORKING, VIEWING, OR USING THIS SOFTWARE, YOU ACKNOWLEDGE THAT
+YOU HAVE READ THIS LICENSE, UNDERSTAND ITS TERMS, AND AGREE TO BE BOUND BY
+THEM.
+
+Only HyperSecurity Members may modify, distribute, or commercially exploit
+this Software. All others may only view, fork for reference, and use
+personally with full attribution intact.
+
+If you require modification rights, redistribution rights, or a commercial
+license, contact the Author for membership or licensing terms.
+
+-------------------------------------------------------------------------------
+© 2024 khaninkali · HyperSecurityLabs · All Rights Reserved
+https://hypersecuritylabs.netlify.app
+https://t.me/hypersecurity_offsec
+https://github.com/hypersecuritylabs
+-------------------------------------------------------------------------------
