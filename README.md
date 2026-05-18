@@ -597,7 +597,7 @@ The database is loaded at runtime, XOR-decrypted to memory, and queried via SQLi
 **khaninkali** · *HyperSecurityLabs*
 
 [![GitHub](https://img.shields.io/badge/GitHub-hypersecuritylabs-fab41e?style=for-the-badge&logo=github&logoColor=1d2021)](https://github.com/hypersecuritylabs)
-[![Website](https://img.shields.io/badge/Website-hypersecuritylabs.netlify.app-b8bb26?style=for-the-badge&logo=google-chrome&logoColor=1d2021)](https://hypersecuritylabs.netlify.app)
+[![Website](https://img.shields.io/badge/hypersecurityoffensivelabs.great-site.net-b8bb26?style=for-the-badge&logo=google-chrome&logoColor=1d2021)](https://hypersecuritylabs.netlify.app)
 [![Telegram](https://img.shields.io/badge/Telegram-hypersecurity__offsec-fe8019?style=for-the-badge&logo=telegram&logoColor=1d2021)](https://t.me/hypersecurity_offsec)
 
 *"Scan everything. Trust nothing. Patch accordingly."*
